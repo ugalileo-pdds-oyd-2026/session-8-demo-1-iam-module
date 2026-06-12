@@ -31,3 +31,8 @@ variable "eventbridge_target_arn" {
   type        = string
   description = "ARN of the Lambda function targeted by the EventBridge rule"
 }
+
+variable "github_repo" {
+  type        = string
+  description = "GitHub repo in org/name format (e.g. oyd-galileo/my-project)"
+}
